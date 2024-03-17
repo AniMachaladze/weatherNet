@@ -4,7 +4,7 @@
   "description": "project description",
   "main": "index.js",
   "scripts": {
-    "build": "babel -d dist"
+    "build": "babel . --out-dir dist --copy-files"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.9",
